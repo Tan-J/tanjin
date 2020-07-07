@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cc.tanjin.wuliu.com.tanjin">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- 振动 -->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/img_theme"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeTwo">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Main2Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".One_jsq"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".One_jsq1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".One_jbq"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".One_txl"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Three_xc"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".One_nz"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ClockActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Two_sp"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Two_yy"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Two_bd"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Two_yyy"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Two_xzcx"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Two_ty"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Two_yx"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Three_qhzt"
+            android:screenOrientation="portrait" />
+        <activity android:name=".One_pz" />
+        <activity android:name=".One_lx"></activity>
+    </application>
+
+</manifest>

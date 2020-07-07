@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cc.tanjin.wuliu.com.tanjin.Main2Activity"
+    android:orientation="vertical">
+
+    <!--<TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="30dp"
+        android:background="@color/colorAccent"
+        android:text="好玩的"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:gravity="center"/>-->
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/myViewPager"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:background="@mipmap/img_14"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/coloryellow"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_item_one"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="小应用"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:drawablePadding="3dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:drawableTop="@mipmap/xyy_normal"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/tv_item_two"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="娱乐"
+            android:paddingTop="2dp"
+            android:paddingBottom="5dp"
+            android:drawablePadding="3dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:drawableTop="@mipmap/yl_normal"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/tv_item_three"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="我的"
+            android:paddingTop="4dp"
+            android:paddingBottom="5dp"
+            android:drawablePadding="3dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:drawableTop="@mipmap/w_normal"
+            android:textSize="18sp" />
+    </LinearLayout>
+</LinearLayout>
